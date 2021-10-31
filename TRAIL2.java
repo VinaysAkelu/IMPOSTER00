@@ -1,4 +1,6 @@
-public class Helloworld{
+// TO INITIALIZE A CLASS STUDENT USING PARAMETERIZED AND NON - PARAMETERIZED CONSTRUCTOR
+
+  public class Helloworld{
   public static void main(String args[]){
     System.out.println("Hello user");
 
@@ -14,6 +16,8 @@ public class Helloworld{
     System.out.println("Student s1 = " + s1.getname());
   }
 }
+
+// CLASS STUDENT WITH IT'S PROPERTIES AND GET MODEL
 
 public class Student{
   private int id;
