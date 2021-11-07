@@ -5,6 +5,7 @@ public class Student{
   private String name;
   private int year;
 
+// constructor - acess_modifier class_name(arg[optional])
   public Student(int id1, String name1, int year1)
   {
     id = id1;
@@ -16,6 +17,7 @@ public class Student{
   {
   }
 
+//method - performing some functionality
   public String getname()
   {
     return name;
