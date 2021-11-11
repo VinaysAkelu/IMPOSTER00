@@ -1,28 +1,28 @@
-/*
- * public class students{
-  private int admission;
-  private String course;
-  private int roll_no;
+public class students implements CollegeGoer{
+  int admission;
+  String course;
+  int rollNo;
 
-  public students(int year1, String course1, int rollno1){
+  public students(int year1, String course1, int rollNo1){
     admission = year1;
     course = course1;
-    roll_no = rollno1;
+    rollNo = rollNo1;
   }
 
-  public String getunique_id(int year){
-    String unique_id1 = year + course + roll_no;
-    return unique_id1;
+  public String getUniqueId(int year){
+    System.out.println("From the parent class - ");
+    String uniqueId1 = year + course + rollNo;                   // after 2015
+    return uniqueId1;
   }
 
-  public String getunique_id(){
-    String unique_id2 = roll_no + course + admission;
-    return unique_id2;
+  public String getUniqueId(){
+    String uniqueId2 = rollNo + course + admission;              // before 2015
+    return uniqueId2;
   }
 
 }
-*/
 
+/*
 //Create a parent class Student with name, id, age, joiningYear variables. Create child classes CSEStudent, ECEStudent.
 //Think of your own variables for these classes. Also think of your own methods on these classes and override them.
 //Try method override with same method signature and try it with different signature.
@@ -54,4 +54,5 @@ public class students{
     System.out.println("The age of the student : "+age);
   }
 
-}  
+}
+*/
