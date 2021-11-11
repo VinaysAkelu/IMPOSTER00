@@ -1,3 +1,4 @@
+/*
 public class EceStudent extends students{
   int semester;
   float cgpa;
@@ -24,4 +25,24 @@ public class EceStudent extends students{
     System.out.println("The age of the student : "+age+"\nGender of the student - "+gender);
   }
 
+}
+*/
+
+public class EceStudent extends students{
+  int semester;
+  float cgpa;
+
+  public EceStudent(int year1, String course1, int rollNo1, int semester, float cgpa){
+    super(year1, course1, rollNo1);
+    this.semester = semester;
+    this.cgpa = cgpa;
+  }
+
+  public String getUniqueId(int year){
+    String uniqueId1 = super.getUniqueId(year);
+    System.out.println(uniqueId1);
+    System.out.println("From the child ECE class - ");
+    String uniqueId2 = course + rollNo + admission;              // after 2015
+    return uniqueId2;
+  }
 }
