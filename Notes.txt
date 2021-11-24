@@ -1,0 +1,96 @@
+1. Repository -         Like a folder where you can store your project files
+2. Branch -             Like a directory which will store all our files
+3. Local Repo -         Any repository saved in your hardware device (eg - own device)
+4. Remote Repo -        After we commit a file it is pushed to the remote repository of git where anyone can view it
+5. Git -                Version control (Source Control), like Github, SVN, etc.
+6. Commit -             Uploading our code to the Local Repository
+7. Push -          Process of uploading commits to Remote Repository
+8. Pull -          Downloading code from Local Repository
+9. Fetch -         Downloading the code from Github (Remote repository)
+10. Master branch -              You can have multiple branches in a repository but there's only 1 master branch that keeps record of all branches
+11. Pull Request(PR) -           To see/review the modifications made in the repository of one branch from another
+12. Merge -        Adding the commits made in your new branch into the main branch
+13. Clone -        Create new local repository based on existing remote repository
+14. " .git " -     Keeps track of all the changes
+
+
+15. Client -       User (device) that sends request to server
+16. Server -       Hardware (device) that send packets to the client after acknowledging the user's request
+17. Stateless application -      Each time server will check the authentication of user's request; it has horizontal scaling (eg - browsing)
+18. Statefull application -      Server will maintain a session with the user so that it wont have to acknowledge the request repeatedly;
+                                 supports vertical scaling (eg - payment)
+19. API (Application Program Interface) -    Stateless application ; API acts as an language so that the server and client can communicate with each other
+20. Language Notations -    XML , JSON , Protocol Buffer
+21. XML -      Extended Markup Language
+22. Json -     Javascript object notation
+23. Domain & Sub-Domain name -   www.Dominoes (domain) . flytekart (sub-domain) . com
+24. Top level domains -     .com , .org , .gov.in
+25. Request keywords -      GET , PUT , POST , DELETE
+26. Response codes -        200 [OK] , 400 [BAD REQUEST] , 401 [UNAUTHORIZED] , 404 [NOT FOUND]
+27. GET -     Get some data about a resource
+28. PUT -     Create a new resource
+29. POST -    Post new data
+30. DELETE -  Delete existing record
+
+
+31. Variable -   Temporary memory space used to store some data
+32. Variable Declaration -       creating the variable
+33. Variable Initialization -    assigning value to the variable
+34. Conditional / Decision making statements -  if , if...else , elif [else if] , switch case
+35. Looping statements -    for loop , while loop , do...while loop
+36. For Loop -        Initialization ; Condition ; Execute ; Post Execution
+37. While Loop -      Condition ; Execute
+38. Do...While Loop - Execute ; Condition
+
+
+39. Class -    Template with properties
+40. Object -   Instance of a class
+41. Constructor -   Way to initialize a class;
+                    Syntax - Access_modifier Class_name(Arguments)
+                    Calling a constructor - Object_type Object_name = new Class_name();
+                                       eg - Student     s1          = new Student();
+42. Default / Non parameterized Constructor -   Simple constructor without any parameters
+43. Parameterized Constructor -   Constructor that has parameters which has to be passed while calling the Constructor
+44. Constructor Overloading -   Having multiple constructors in a single Class
+45. Methods -   Used to create some functionality;
+                Syntax - Access_modifier Return_type Method_name(Arguments)
+                Calling a method - Object_reference.Method_name();
+                              eg - s1.getUniqueId();
+46. Method Overloading -  Multiple methods having same name but different arguments
+
+
+47. Naming Conventions - camelCase , CAPITALS , PascalCase , lowercase , snake_case
+48. camelCase -             Methods , variables
+49. PascalCase -            Class
+50. CAPITAL SNAKE_CASE -    Constants
+51. Final -   Used to declare constants ; if used in method then it can't be over-ridden
+
+
+52. Inheritance -   Copy properties [variables, constants, methods] of 1 class to another
+53. Extends -    Keyword used by the Child class to inherit the properties of Parent class
+54. Super -      To directly access the PUBLIC properties [variables, constructors, methods, constants] of the parent class
+55. This -       To access it's own properties [variables, constructors, methods, constants]
+
+
+56. Access Modifier - PUBLIC , PRIVATE , DEFAULT , PROTECTED
+57. PUBLIC -    No restrictions, freely available
+58. PRIVATE -   Only accessed by it's own Class
+59. DEFAULT -   Access to child class & in same packages
+60. PROTECTED - Access to child class only
+61. Instance of -  Keyword used to identify if the child class belongs to a particular class or interface
+
+
+62. Interface -   Define rules for child classes, declare variables and methods but CAN'T DEFINE THEM
+                  Can't create an object for Interface
+                  To inherit one interface in another interface we use Extends keyword
+63. Implements -  Keyword used to imply an Interface ; ONE OR MORE INTERFACES CAN BE IMPLEMENTED UNLIKE EXTENDS
+64. Abstract Class -   Features of Class + Features of Interface
+                       Syntax - public abstract class Student{}
+                       Can't create an object for Abstract Class
+                       Abstract class can have 0 methods from the interface it implements
+
+
+65. JAVA Features - Object Oriented, Inheritance, Abstraction, Encapsulation
+66. Object Oriented -   Programming based on classes and objects
+67. Abstraction -     Provides declaration without implementations [Abstract Class , Interfaces]
+68. Encapsulation -   Able to hide inner working of a class [PUBLIC, PRIVATE, DEFAULT, PROTECTED]  
