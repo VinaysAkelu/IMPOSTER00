@@ -72,11 +72,11 @@
 55. This -       To access it's own properties [variables, constructors, methods, constants]
 
 
-56. Access Modifier - PUBLIC , PRIVATE , DEFAULT , PROTECTED
-57. PUBLIC -    No restrictions, freely available
-58. PRIVATE -   Only accessed by it's own Class
-59. DEFAULT -   Access to child class & in same packages
-60. PROTECTED - Access to child class only
+56. Access Modifier - public , private , default , protected
+57. Public -    No restrictions, freely available
+58. Private -   Only accessed by it's own Class
+59. Default -   Access to child class & in same packages
+60. Protected - Access to child class only
 61. Instance of -  Keyword used to identify if the child class belongs to a particular class or interface
 
 
@@ -93,4 +93,5 @@
 65. JAVA Features - Object Oriented, Inheritance, Abstraction, Encapsulation
 66. Object Oriented -   Programming based on classes and objects
 67. Abstraction -     Provides declaration without implementations [Abstract Class , Interfaces]
-68. Encapsulation -   Able to hide inner working of a class [PUBLIC, PRIVATE, DEFAULT, PROTECTED]  
+68. Encapsulation -   Able to hide inner working of a class [PUBLIC, PRIVATE, DEFAULT, PROTECTED]
+69. Inner Class - Class within another classes
