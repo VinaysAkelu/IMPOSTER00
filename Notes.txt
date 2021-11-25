@@ -31,7 +31,7 @@
 28. PUT -     Create a new resource
 29. POST -    Post new data
 30. DELETE -  Delete existing record
-
+31. PATCH -   Change in existing record
 
 31. Variable -   Temporary memory space used to store some data
 32. Variable Declaration -       creating the variable
@@ -63,7 +63,7 @@
 48. camelCase -             Methods , variables
 49. PascalCase -            Class
 50. CAPITAL SNAKE_CASE -    Constants
-51. Final -   Used to declare constants ; if used in method then it can't be over-ridden
+51. Final -   Used to declare constants ; if used in method then it can't be over-ridden ; if used in class then it can't be inherited
 
 
 52. Inheritance -   Copy properties [variables, constants, methods] of 1 class to another
