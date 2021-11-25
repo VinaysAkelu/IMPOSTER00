@@ -36,7 +36,7 @@
 31. Variable -   Temporary memory space used to store some data
 32. Variable Declaration -       creating the variable
 33. Variable Initialization -    assigning value to the variable
-34. Conditional / Decision making statements -  if , if...else , elif [else if] , switch case
+34. Conditional / Decision making statements -  if , if...else , else if , switch case
 35. Looping statements -    for loop , while loop , do...while loop
 36. For Loop -        Initialization ; Condition ; Execute ; Post Execution
 37. While Loop -      Condition ; Execute
