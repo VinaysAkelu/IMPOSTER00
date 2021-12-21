@@ -95,3 +95,23 @@
 67. Abstraction -     Provides declaration without implementations [Abstract Class , Interfaces]
 68. Encapsulation -   Able to hide inner working of a class [PUBLIC, PRIVATE, DEFAULT, PROTECTED]
 69. Inner Class - Class within another classes
+
+70. Final:
+variable -> constant
+method -> cannot override
+class -> cannot inherit
+71. Static:
+method -> It will allow us to access a method directly using a class. Object is not required. - Avoided
+variable -> Can be accessed directly from class. - Avoided
+Objects will not have their own copies of static variables and static methods
+class -> Can be accessed directly from the class containing it.
+72.  Packages - Packages are folders in java to segregate files.
+73.  Array -> Index vs value relationship is always maintained.
+74. Lists: Order is maintained.
+Dynamically increase the size of the list.
+Dynamically decrease the size of the list.
+75. Set -> Interface
+76. HashSet -> One type of set -> Class
+77. List - Ordered collection of items -> ArrayList, LinkedList
+78. Set - Unordered collection of items -> HashSet
+79. Iterator - Traverse through a collection
